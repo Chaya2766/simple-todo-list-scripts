@@ -1,5 +1,5 @@
 #if the todo file has less or equal 2 lines then exit immediately without doing anything
-if [ `cat todo.txt | wc -l` -le 2 ]
+if [ `cat ~/todo.txt | wc -l` -le 2 ]
 then
 exit 0
 fi
